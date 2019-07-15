@@ -1,11 +1,10 @@
 # Your code goes here!
 class Anagram 
-  attr_accessor :match
-  def ititialize(match)
-    @match = match 
+  attr_accessor :word_to_analyze
+  def ititialize(word_to_analize)
+    @word_to_analize = word_to_analize
   end 
   
-  def self.match
-    @match.detect 
+  def match
   end
 end 
