@@ -4,4 +4,8 @@ class Anagram
   def ititialize(match)
     @match = match 
   end 
+  
+  def self.match
+    match.detect == match 
+  end
 end 
