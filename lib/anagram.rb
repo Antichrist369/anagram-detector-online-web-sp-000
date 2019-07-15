@@ -6,6 +6,6 @@ class Anagram
   end 
   
   def self.match
-    match.detect == match 
+    match.detect 
   end
 end 
